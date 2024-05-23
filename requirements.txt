@@ -1,0 +1,4 @@
+ipywidgets
+traitlets
+ipython
+sklearn 1.4.* for compatibility

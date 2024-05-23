@@ -50,36 +50,3 @@ resource "null_resource" "upload_file" {
     azurerm_storage_data_lake_gen2_filesystem.example
   ]
 }
-
-
-
-# resource "azurerm_storage_container" "example" {
-#   name                  = "datafolder"
-#   storage_account_name  = azurerm_storage_account.example.name
-#   container_access_type = "private"
-# }
-#
-# resource "azurerm_storage_blob" "example" {
-#   name                   = "bankchurners.csv"
-#   storage_account_name   = azurerm_storage_account.example.name
-#   storage_container_name = azurerm_storage_container.example.name
-#   type                   = "Block"
-#   source                 = "../data/raw/bank_churners.csv"
-# }
-
-# resource "azurerm_storage_container" "example" {
-#   name                  = "azurermstoragecontainername"
-#   storage_account_name  = azurerm_storage_account.example.name
-#   container_access_type = "private"
-# }
-#
-# resource "azurerm_storage_blob" "example" {
-#   name                   = "bankchurners.csv"
-#   storage_account_name   = azurerm_storage_account.example.name
-#   storage_container_name = azurerm_storage_container.example.name
-#   type                   = "Block"
-#   source                 = "../data/raw/bank_churners.csv"
-# }
-
-
-
