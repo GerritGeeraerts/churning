@@ -1,0 +1,360 @@
+CompileCommand: exclude com/intellij/openapi/vfs/impl/FilePartNodeRoot.trieDescend bool exclude = true
+2024-05-17 15:36:55,728 [     61]   WARN - #c.i.i.p.PluginManager - Problems found loading plugins:
+  The JetBrains AI Assistant (id=com.intellij.ml.llm, path=~/.local/share/JetBrains/PyCharm2024.1/ml-llm, version=241.14494.240) plugin Plugin 'JetBrains AI Assistant' (version '241.14494.240') is not compatible with the current version of the IDE, because it requires build 241.14494.* or older but the current build is PY-241.15989.155
+2024-05-17 15:36:56,295 [    628]   WARN - #c.i.e.t.TargetBasedSdks - SDK target configuration data is absent
+2024-05-17 15:36:56,335 [    668]   WARN - #c.i.e.t.TargetBasedSdks - SDK target configuration data is absent
+2024-05-17 15:36:56,337 [    670]   WARN - #c.i.e.t.TargetBasedSdks - SDK target configuration data is absent
+2024-05-17 15:36:56,339 [    672]   WARN - #c.i.e.t.TargetBasedSdks - SDK target configuration data is absent
+2024-05-17 15:36:56,340 [    673]   WARN - #c.i.e.t.TargetBasedSdks - SDK target configuration data is absent
+2024-05-17 15:36:56,342 [    675]   WARN - #c.i.e.t.TargetBasedSdks - SDK target configuration data is absent
+2024-05-17 15:36:56,344 [    677]   WARN - #c.i.e.t.TargetBasedSdks - SDK target configuration data is absent
+2024-05-17 15:36:56,345 [    678]   WARN - #c.i.e.t.TargetBasedSdks - SDK target configuration data is absent
+2024-05-17 15:36:56,348 [    681]   WARN - #c.i.e.t.TargetBasedSdks - SDK target configuration data is absent
+2024-05-17 15:36:56,350 [    683]   WARN - #c.i.e.t.TargetBasedSdks - SDK target configuration data is absent
+2024-05-17 15:36:56,352 [    685]   WARN - #c.i.e.t.TargetBasedSdks - SDK target configuration data is absent
+2024-05-17 15:36:56,353 [    686]   WARN - #c.i.e.t.TargetBasedSdks - SDK target configuration data is absent
+2024-05-17 15:36:56,355 [    688]   WARN - #c.i.e.t.TargetBasedSdks - SDK target configuration data is absent
+2024-05-17 15:36:56,356 [    689]   WARN - #c.i.e.t.TargetBasedSdks - SDK target configuration data is absent
+2024-05-17 15:36:56,358 [    691]   WARN - #c.i.e.t.TargetBasedSdks - SDK target configuration data is absent
+2024-05-17 15:36:56,359 [    692]   WARN - #c.i.e.t.TargetBasedSdks - SDK target configuration data is absent
+2024-05-17 15:36:56,361 [    694]   WARN - #c.i.e.t.TargetBasedSdks - SDK target configuration data is absent
+2024-05-17 15:36:56,362 [    695]   WARN - #c.i.e.t.TargetBasedSdks - SDK target configuration data is absent
+2024-05-17 15:36:56,364 [    697]   WARN - #c.i.e.t.TargetBasedSdks - SDK target configuration data is absent
+2024-05-17 15:36:56,365 [    698]   WARN - #c.i.e.t.TargetBasedSdks - SDK target configuration data is absent
+2024-05-17 15:36:56,366 [    699]   WARN - #c.i.e.t.TargetBasedSdks - SDK target configuration data is absent
+2024-05-17 15:36:56,368 [    701]   WARN - #c.i.e.t.TargetBasedSdks - SDK target configuration data is absent
+2024-05-17 15:36:56,369 [    702]   WARN - #c.i.e.t.TargetBasedSdks - SDK target configuration data is absent
+2024-05-17 15:36:56,370 [    703]   WARN - #c.i.e.t.TargetBasedSdks - SDK target configuration data is absent
+2024-05-17 15:36:56,372 [    705]   WARN - #c.i.e.t.TargetBasedSdks - SDK target configuration data is absent
+2024-05-17 15:36:56,373 [    706]   WARN - #c.i.e.t.TargetBasedSdks - SDK target configuration data is absent
+2024-05-17 15:36:56,375 [    708]   WARN - #c.i.e.t.TargetBasedSdks - SDK target configuration data is absent
+2024-05-17 15:36:56,377 [    710]   WARN - #c.i.e.t.TargetBasedSdks - SDK target configuration data is absent
+2024-05-17 15:36:56,378 [    711]   WARN - #c.i.e.t.TargetBasedSdks - SDK target configuration data is absent
+2024-05-17 15:36:56,380 [    713]   WARN - #c.i.e.t.TargetBasedSdks - SDK target configuration data is absent
+2024-05-17 15:36:56,381 [    714]   WARN - #c.i.e.t.TargetBasedSdks - SDK target configuration data is absent
+2024-05-17 15:36:56,383 [    716]   WARN - #c.i.e.t.TargetBasedSdks - SDK target configuration data is absent
+2024-05-17 15:36:56,384 [    717]   WARN - #c.i.e.t.TargetBasedSdks - SDK target configuration data is absent
+2024-05-17 15:36:56,385 [    718]   WARN - #c.i.e.t.TargetBasedSdks - SDK target configuration data is absent
+2024-05-17 15:36:56,386 [    719]   WARN - #c.i.e.t.TargetBasedSdks - SDK target configuration data is absent
+2024-05-17 15:36:56,386 [    719]   WARN - #c.i.e.t.TargetBasedSdks - SDK target configuration data is absent
+2024-05-17 15:36:56,387 [    720]   WARN - #c.i.e.t.TargetBasedSdks - SDK target configuration data is absent
+2024-05-17 15:36:56,388 [    721]   WARN - #c.i.e.t.TargetBasedSdks - SDK target configuration data is absent
+2024-05-17 15:36:56,389 [    722]   WARN - #c.i.e.t.TargetBasedSdks - SDK target configuration data is absent
+2024-05-17 15:36:56,390 [    723]   WARN - #c.i.e.t.TargetBasedSdks - SDK target configuration data is absent
+2024-05-17 15:36:56,390 [    723]   WARN - #c.i.e.t.TargetBasedSdks - SDK target configuration data is absent
+2024-05-17 15:36:56,391 [    724]   WARN - #c.i.e.t.TargetBasedSdks - SDK target configuration data is absent
+2024-05-17 15:36:56,392 [    725]   WARN - #c.i.e.t.TargetBasedSdks - SDK target configuration data is absent
+2024-05-17 15:36:56,393 [    726]   WARN - #c.i.e.t.TargetBasedSdks - SDK target configuration data is absent
+2024-05-17 15:36:56,393 [    726]   WARN - #c.i.e.t.TargetBasedSdks - SDK target configuration data is absent
+2024-05-17 15:36:56,553 [    886]   WARN - #c.i.u.x.Binding - No accessors for java.awt.Color. This means that state class cannot be serialized properly. Please see https://jb.gg/ij-psoc
+2024-05-17 15:36:56,977 [   1310]   WARN - #c.i.s.ComponentManagerImpl - com.github.copilot.platform.state.ToolWindowRegistrationSettings <clinit> requests com.github.copilot.platform.state.ToolWindowRegistrationSettings instance. Class initialization must not depend on services. Consider using instance of the service on-demand instead.
+2024-05-17 15:36:57,338 [   1671]   WARN - #c.i.s.ComponentManagerImpl - com.intellij.ui.jcef.JBCefApp$Holder <clinit> requests com.intellij.ui.jcef.JBCefAppCache instance. Class initialization must not depend on services. Consider using instance of the service on-demand instead.
+
+(java:73844): Gtk-WARNING **: 15:36:57.661: gtk_disable_setlocale() must be called before gtk_init()
+2024-05-17 15:36:57,823 [   2156]   WARN - #c.i.i.s.i.StartupManagerImpl - Migrate com.andrey4623.rainbowcsv.startupactivity.WelcomeActivity to ProjectActivity [Plugin: com.andrey4623.rainbowcsv]
+com.intellij.diagnostic.PluginException: Migrate com.andrey4623.rainbowcsv.startupactivity.WelcomeActivity to ProjectActivity [Plugin: com.andrey4623.rainbowcsv]
+	at com.intellij.ide.startup.impl.StartupManagerImpl.runPostStartupActivities(StartupManagerImpl.kt:275)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.access$runPostStartupActivities(StartupManagerImpl.kt:68)
+	at com.intellij.ide.startup.impl.StartupManagerImpl$runPostStartupActivities$3$2.invokeSuspend(StartupManagerImpl.kt:191)
+	at com.intellij.ide.startup.impl.StartupManagerImpl$runPostStartupActivities$3$2.invoke(StartupManagerImpl.kt)
+	at com.intellij.ide.startup.impl.StartupManagerImpl$runPostStartupActivities$3$2.invoke(StartupManagerImpl.kt)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startUndispatchedOrReturn(Undispatched.kt:78)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.withContext(Builders.common.kt:167)
+	at kotlinx.coroutines.BuildersKt.withContext(Unknown Source)
+	at com.intellij.ide.startup.impl.StartupManagerImpl$runPostStartupActivities$3.invokeSuspend(StartupManagerImpl.kt:190)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:108)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:584)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:793)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:697)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:684)
+2024-05-17 15:36:58,073 [   2406]   WARN - #c.i.s.ComponentManagerImpl - com.jetbrains.python.PyElementTypes <clinit> requests com.jetbrains.python.PyElementTypesFacade instance. Class initialization must not depend on services. Consider using instance of the service on-demand instead.
+2024-05-17 15:36:58,224 [   2557]   WARN - #c.i.u.x.Binding - No accessors for java.time.ZonedDateTime. This means that state class cannot be serialized properly. Please see https://jb.gg/ij-psoc
+2024-05-17 15:36:58,422 [   2755]   WARN - #c.j.p.s.f.PythonSdkFlavor - /home/gg/PycharmProjects/Immo-Data-Collection/.venv/bin/python is not executable: File /home/gg/PycharmProjects/Immo-Data-Collection/.venv/bin/python is not found
+2024-05-17 15:36:58,874 [   3207]   WARN - #git4idea.annotate.GitAnnotationProvider - Git annotations are empty for file /home/gg/PycharmProjects/churning/README.md in revision f842c7ec6d8d623fa366775bf8f993d04590e16c
+2024-05-17 15:37:00,884 [   5217]   WARN - #c.i.u.x.Binding - No accessors for com.andrey4623.rainbowcsv.Delimiter. This means that state class cannot be serialized properly. Please see https://jb.gg/ij-psoc
+2024-05-17 15:37:00,884 [   5217]   WARN - #c.i.u.x.Binding - No accessors for com.andrey4623.rainbowcsv.EscapeCharacter. This means that state class cannot be serialized properly. Please see https://jb.gg/ij-psoc
+2024-05-17 15:37:03,275 [   7608]   WARN - #c.j.p.s.PythonSdkUpdater - Update for SDK Python 3.10 (Immo-Data-Collection) failed
+com.intellij.execution.process.ProcessNotCreatedException: Cannot run program "/home/gg/PycharmProjects/Immo-Data-Collection/.venv/bin/python": error=2, No such file or directory
+	at com.intellij.execution.configurations.GeneralCommandLine.createProcess(GeneralCommandLine.java:367)
+	at com.intellij.execution.target.local.LocalTargetEnvironment.createProcess(LocalTargetEnvironment.java:128)
+	at com.jetbrains.python.run.PythonScripts.execute(PythonScripts.kt:239)
+	at com.jetbrains.python.sdk.PyTargetsIntrospectionFacade.getInterpreterVersion(PyTargetsIntrospectionFacade.kt:41)
+	at com.jetbrains.python.sdk.PythonSdkUpdater$PyUpdateSdkTask.run(PythonSdkUpdater.java:143)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.startTask(CoreProgressManager.java:477)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.startTask(ProgressManagerImpl.java:133)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcessWithProgressAsynchronously$6(CoreProgressManager.java:528)
+	at com.intellij.openapi.progress.impl.ProgressRunner.lambda$submit$4(ProgressRunner.java:250)
+	at com.intellij.openapi.progress.ProgressManager.lambda$runProcess$0(ProgressManager.java:100)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcess$1(CoreProgressManager.java:221)
+	at com.intellij.platform.diagnostic.telemetry.helpers.TraceKt.use(trace.kt:46)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcess$2(CoreProgressManager.java:220)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$executeProcessUnderProgress$13(CoreProgressManager.java:660)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:735)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computeUnderProgress(CoreProgressManager.java:691)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:659)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:79)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:202)
+	at com.intellij.openapi.progress.ProgressManager.runProcess(ProgressManager.java:100)
+	at com.intellij.openapi.progress.impl.ProgressRunner.lambda$submit$5(ProgressRunner.java:250)
+	at com.intellij.openapi.progress.impl.ProgressRunner$ProgressRunnable.run(ProgressRunner.java:500)
+	at com.intellij.util.concurrency.ChildContext$runAsCoroutine$1.invoke(propagation.kt:81)
+	at com.intellij.util.concurrency.ChildContext$runAsCoroutine$1.invoke(propagation.kt:81)
+	at com.intellij.util.concurrency.Propagation$runAsCoroutine$deferred$1.invokeSuspend(propagation.kt:195)
+	at com.intellij.util.concurrency.Propagation$runAsCoroutine$deferred$1.invoke(propagation.kt)
+	at com.intellij.util.concurrency.Propagation$runAsCoroutine$deferred$1.invoke(propagation.kt)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startCoroutineUndispatched(Undispatched.kt:44)
+	at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:112)
+	at kotlinx.coroutines.AbstractCoroutine.start(AbstractCoroutine.kt:126)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.async(Builders.common.kt:91)
+	at kotlinx.coroutines.BuildersKt.async(Unknown Source)
+	at com.intellij.util.concurrency.Propagation.runAsCoroutine(propagation.kt:190)
+	at com.intellij.util.concurrency.ChildContext.runAsCoroutine(propagation.kt:89)
+	at com.intellij.util.concurrency.ChildContext.runAsCoroutine(propagation.kt:81)
+	at com.intellij.openapi.progress.impl.ProgressRunner.lambda$launchTask$18(ProgressRunner.java:466)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:702)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:699)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1.run(Executors.java:699)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: Cannot run program "/home/gg/PycharmProjects/Immo-Data-Collection/.venv/bin/python": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at com.intellij.execution.configurations.GeneralCommandLine.createProcess(GeneralCommandLine.java:491)
+	at com.intellij.execution.configurations.GeneralCommandLine.startProcess(GeneralCommandLine.java:464)
+	at com.intellij.execution.configurations.GeneralCommandLine.createProcess(GeneralCommandLine.java:357)
+	... 42 more
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:314)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:244)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	... 46 more
+2024-05-17 16:07:22,976 [1827309]   WARN - #c.j.p.s.f.PythonSdkFlavor - /home/gg/PycharmProjects/Immo-Data-Collection/.venv/bin/python is not executable: File /home/gg/PycharmProjects/Immo-Data-Collection/.venv/bin/python is not found
+2024-05-17 16:07:23,618 [1827951] SEVERE - #com.github.copilot.lang.agent.RestartableCopilotAgentProcessService - IdeaLoggingEvent[message=Copilot Agent terminated unexpectedly. Exit code: 129, throwable=java.lang.RuntimeException: Copilot Agent terminated unexpectedly. Exit code: 129
+	at com.github.copilot.lang.agent.RestartableCopilotAgentProcessService$BaseDelegateImplementation.onRestartException(RestartableCopilotAgentProcessService.java:256)
+	at com.github.copilot.lang.agent.CopilotAgentProcessServiceImpl.handleAgentExceptionLocked(CopilotAgentProcessServiceImpl.java:273)
+	at com.github.copilot.lang.agent.CopilotAgentProcessServiceImpl.lambda$executeNotification$4(CopilotAgentProcessServiceImpl.java:332)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: Stream closed
+	at java.base/java.lang.ProcessBuilder$NullOutputStream.write(ProcessBuilder.java:445)
+	at java.base/java.io.OutputStream.write(OutputStream.java:162)
+	at java.base/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:81)
+	at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:142)
+	at com.github.copilot.lang.agent.vscodeRpc.VSCodeJsonRpc.sendBytes(VSCodeJsonRpc.java:77)
+	at com.github.copilot.lang.agent.vscodeRpc.VSCodeJsonRpc.sendNotification(VSCodeJsonRpc.java:53)
+	at com.github.copilot.lang.agent.CopilotAgentProcessServiceImpl.lambda$executeNotification$4(CopilotAgentProcessServiceImpl.java:329)
+	... 5 more
+]
+2024-05-17 16:07:23,680 [1828013]   WARN - #git4idea.annotate.GitAnnotationProvider - Git annotations are empty for file /home/gg/PycharmProjects/churning/terraform/main.tf in revision 27089378c8635dc7e43a3337032ae9bd144fdfb9
+2024-05-17 16:15:01,552 [2285885] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 36 >= 36
+2024-05-17 16:18:48,949 [2513282]   WARN - #c.j.p.s.f.PythonSdkFlavor - /home/gg/PycharmProjects/Immo-Data-Collection/.venv/bin/python is not executable: File /home/gg/PycharmProjects/Immo-Data-Collection/.venv/bin/python is not found
+2024-05-17 16:28:57,269 [3121602]   WARN - #c.j.p.s.f.PythonSdkFlavor - /home/gg/PycharmProjects/Immo-Data-Collection/.venv/bin/python is not executable: File /home/gg/PycharmProjects/Immo-Data-Collection/.venv/bin/python is not found
+2024-05-17 16:36:30,137 [3574470] SEVERE - #c.i.i.p.PluginManager - -4
+java.lang.AssertionError: -4
+	at com.intellij.openapi.util.text.StringUtil.repeatSymbol(StringUtil.java:1149)
+	at com.intellij.formatting.IndentInfo.generateLineWhitespace(IndentInfo.java:93)
+	at com.intellij.formatting.IndentInfo.generateNewWhiteSpace(IndentInfo.java:66)
+	at org.jetbrains.plugins.textmate.editor.TextMateLineIndentProvider.getLineIndent(TextMateLineIndentProvider.kt:53)
+	at com.intellij.application.options.CodeStyle.getLineIndent(CodeStyle.java:480)
+	at com.intellij.codeInsight.editorActions.EnterHandler.adjustLineIndentNoCommit(EnterHandler.java:311)
+	at com.intellij.codeInsight.editorActions.EnterHandler$DoEnterAction.run(EnterHandler.java:436)
+	at com.intellij.codeInsight.editorActions.EnterHandler.executeWriteActionInner(EnterHandler.java:163)
+	at com.intellij.codeInsight.editorActions.EnterHandler.lambda$executeWriteAction$0(EnterHandler.java:65)
+	at com.intellij.psi.impl.source.PostprocessReformattingAspectImpl.lambda$disablePostprocessFormattingInside$1(PostprocessReformattingAspectImpl.java:119)
+	at com.intellij.psi.impl.source.PostprocessReformattingAspectImpl.disablePostprocessFormattingInside(PostprocessReformattingAspectImpl.java:128)
+	at com.intellij.psi.impl.source.PostprocessReformattingAspectImpl.disablePostprocessFormattingInside(PostprocessReformattingAspectImpl.java:118)
+	at com.intellij.codeInsight.editorActions.EnterHandler.executeWriteAction(EnterHandler.java:64)
+	at com.intellij.openapi.editor.actionSystem.EditorWriteActionHandler$1.run(EditorWriteActionHandler.java:42)
+	at com.intellij.openapi.application.impl.RwLockHolder.runWriteAction(RwLockHolder.kt:344)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWriteAction(ApplicationImpl.java:883)
+	at com.intellij.openapi.editor.actionSystem.EditorWriteActionHandler.doExecute(EditorWriteActionHandler.java:56)
+	at com.intellij.openapi.editor.actionSystem.EditorActionHandler.execute(EditorActionHandler.java:202)
+	at org.jetbrains.plugins.notebooks.editor.actions.command.mode.JupyterModeEditorActionHandler.doExecute(NotebookEditorModesActions.kt:81)
+	at com.intellij.openapi.editor.actionSystem.EditorActionHandler.execute(EditorActionHandler.java:202)
+	at com.intellij.codeInsight.template.impl.editorActions.EnterHandler.executeWriteAction(EnterHandler.java:49)
+	at com.intellij.openapi.editor.actionSystem.EditorWriteActionHandler$1.run(EditorWriteActionHandler.java:42)
+	at com.intellij.openapi.application.impl.RwLockHolder.runWriteAction(RwLockHolder.kt:344)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWriteAction(ApplicationImpl.java:883)
+	at com.intellij.openapi.editor.actionSystem.EditorWriteActionHandler.doExecute(EditorWriteActionHandler.java:56)
+	at com.intellij.openapi.editor.actionSystem.EditorActionHandler.lambda$execute$2(EditorActionHandler.java:192)
+	at com.intellij.openapi.editor.actionSystem.EditorActionHandler.doIfEnabled(EditorActionHandler.java:89)
+	at com.intellij.openapi.editor.actionSystem.EditorActionHandler.lambda$execute$3(EditorActionHandler.java:191)
+	at com.intellij.openapi.editor.impl.CaretModelImpl.lambda$runForEachCaret$3(CaretModelImpl.java:303)
+	at com.intellij.openapi.editor.impl.CaretModelImpl.doWithCaretMerging(CaretModelImpl.java:412)
+	at com.intellij.openapi.editor.impl.CaretModelImpl.runForEachCaret(CaretModelImpl.java:312)
+	at com.intellij.openapi.editor.impl.CaretModelImpl.runForEachCaret(CaretModelImpl.java:289)
+	at com.intellij.openapi.editor.actionSystem.EditorActionHandler.execute(EditorActionHandler.java:189)
+	at org.jetbrains.plugins.terminal.exp.TerminalEnterHandler.executeWriteAction(TerminalEnterHandler.kt:30)
+	at com.intellij.openapi.editor.actionSystem.EditorWriteActionHandler$1.run(EditorWriteActionHandler.java:42)
+	at com.intellij.openapi.application.impl.RwLockHolder.runWriteAction(RwLockHolder.kt:344)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWriteAction(ApplicationImpl.java:883)
+	at com.intellij.openapi.editor.actionSystem.EditorWriteActionHandler.doExecute(EditorWriteActionHandler.java:56)
+	at com.intellij.openapi.editor.actionSystem.EditorActionHandler.lambda$execute$4(EditorActionHandler.java:199)
+	at com.intellij.openapi.editor.actionSystem.EditorActionHandler.doIfEnabled(EditorActionHandler.java:89)
+	at com.intellij.openapi.editor.actionSystem.EditorActionHandler.execute(EditorActionHandler.java:198)
+	at com.intellij.xdebugger.impl.actions.handlers.XDebuggerSmartStepIntoHandler$SmartStepEditorActionHandler.doExecute(XDebuggerSmartStepIntoHandler.java:448)
+	at com.intellij.openapi.editor.actionSystem.EditorActionHandler.lambda$execute$4(EditorActionHandler.java:199)
+	at com.intellij.openapi.editor.actionSystem.EditorActionHandler.doIfEnabled(EditorActionHandler.java:89)
+	at com.intellij.openapi.editor.actionSystem.EditorActionHandler.execute(EditorActionHandler.java:198)
+	at com.intellij.execution.impl.ConsoleViewImpl$ConsoleActionHandler.doExecute(ConsoleViewImpl.java:1229)
+	at com.intellij.openapi.editor.actionSystem.DynamicEditorActionHandler.doExecute(DynamicEditorActionHandler.java:63)
+	at com.intellij.openapi.editor.actionSystem.EditorActionHandler.lambda$execute$4(EditorActionHandler.java:199)
+	at com.intellij.openapi.editor.actionSystem.EditorActionHandler.doIfEnabled(EditorActionHandler.java:89)
+	at com.intellij.openapi.editor.actionSystem.EditorActionHandler.execute(EditorActionHandler.java:198)
+	at com.intellij.openapi.editor.actionSystem.EditorAction.lambda$actionPerformed$0(EditorAction.java:92)
+	at com.intellij.openapi.command.impl.CoreCommandProcessor.executeCommand(CoreCommandProcessor.java:225)
+	at com.intellij.openapi.command.impl.CoreCommandProcessor.executeCommand(CoreCommandProcessor.java:177)
+	at com.intellij.openapi.editor.actionSystem.EditorAction.actionPerformed(EditorAction.java:101)
+	at com.intellij.openapi.editor.actionSystem.EditorAction.actionPerformed(EditorAction.java:77)
+	at com.intellij.openapi.actionSystem.ex.ActionUtil.doPerformActionOrShowPopup(ActionUtil.kt:304)
+	at com.intellij.openapi.keymap.impl.ActionProcessor.performAction(ActionProcessor.java:32)
+	at com.intellij.openapi.keymap.impl.IdeKeyEventDispatcher$actionProcessor$1.performAction(IdeKeyEventDispatcher.kt:495)
+	at com.intellij.openapi.keymap.impl.IdeKeyEventDispatcherKt.doPerformActionInner$lambda$4$lambda$3(IdeKeyEventDispatcher.kt:844)
+	at com.intellij.openapi.application.TransactionGuardImpl.performActivity(TransactionGuardImpl.java:106)
+	at com.intellij.openapi.application.TransactionGuardImpl.performUserActivity(TransactionGuardImpl.java:95)
+	at com.intellij.openapi.keymap.impl.IdeKeyEventDispatcherKt.doPerformActionInner$lambda$4(IdeKeyEventDispatcher.kt:844)
+	at com.intellij.openapi.actionSystem.impl.ActionManagerImpl.performWithActionCallbacks(ActionManagerImpl.kt:1161)
+	at com.intellij.openapi.actionSystem.ex.ActionUtil.performDumbAwareWithCallbacks(ActionUtil.kt:321)
+	at com.intellij.openapi.keymap.impl.IdeKeyEventDispatcherKt.doPerformActionInner(IdeKeyEventDispatcher.kt:842)
+	at com.intellij.openapi.keymap.impl.IdeKeyEventDispatcherKt.access$doPerformActionInner(IdeKeyEventDispatcher.kt:1)
+	at com.intellij.openapi.keymap.impl.IdeKeyEventDispatcher.processAction$intellij_platform_ide_impl(IdeKeyEventDispatcher.kt:571)
+	at com.intellij.openapi.keymap.impl.IdeKeyEventDispatcher.processAction(IdeKeyEventDispatcher.kt:508)
+	at com.intellij.openapi.keymap.impl.IdeKeyEventDispatcher.processActionOrWaitSecondStroke(IdeKeyEventDispatcher.kt:447)
+	at com.intellij.openapi.keymap.impl.IdeKeyEventDispatcher.inInitState(IdeKeyEventDispatcher.kt:440)
+	at com.intellij.openapi.keymap.impl.IdeKeyEventDispatcher.dispatchKeyEvent(IdeKeyEventDispatcher.kt:302)
+	at com.intellij.ide.IdeEventQueue.dispatchKeyEvent(IdeEventQueue.kt:623)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent$lambda$11(IdeEventQueue.kt:585)
+	at com.intellij.openapi.application.impl.RwLockHolder.runWithEnabledImplicitRead(RwLockHolder.kt:138)
+	at com.intellij.openapi.application.impl.RwLockHolder.runWithImplicitRead(RwLockHolder.kt:129)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.kt:585)
+	at com.intellij.ide.IdeEventQueue.access$_dispatchEvent(IdeEventQueue.kt:77)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1.compute(IdeEventQueue.kt:362)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1.compute(IdeEventQueue.kt:361)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:843)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1.invoke(IdeEventQueue.kt:361)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1.invoke(IdeEventQueue.kt:356)
+	at com.intellij.ide.IdeEventQueueKt.performActivity$lambda$1(IdeEventQueue.kt:1022)
+	at com.intellij.openapi.application.TransactionGuardImpl.performActivity(TransactionGuardImpl.java:114)
+	at com.intellij.ide.IdeEventQueueKt.performActivity(IdeEventQueue.kt:1022)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent$lambda$7(IdeEventQueue.kt:356)
+	at com.intellij.openapi.application.impl.RwLockHolder.runIntendedWriteActionOnCurrentThread(RwLockHolder.kt:209)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:830)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.kt:398)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:207)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:128)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:117)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:105)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:92)
+2024-05-17 16:36:30,138 [3574471] SEVERE - #c.i.i.p.PluginManager - PyCharm 2024.1.1  Build #PY-241.15989.155
+2024-05-17 16:36:30,138 [3574471] SEVERE - #c.i.i.p.PluginManager - JDK: 17.0.10; VM: OpenJDK 64-Bit Server VM; Vendor: JetBrains s.r.o.
+2024-05-17 16:36:30,138 [3574471] SEVERE - #c.i.i.p.PluginManager - OS: Linux
+2024-05-17 16:36:30,138 [3574471] SEVERE - #c.i.i.p.PluginManager - Last Action: EditorEnter
+2024-05-17 16:38:03,947 [3668280] SEVERE - #c.i.i.p.PluginManager - -4
+java.lang.AssertionError: -4
+	at com.intellij.openapi.util.text.StringUtil.repeatSymbol(StringUtil.java:1149)
+	at com.intellij.formatting.IndentInfo.generateLineWhitespace(IndentInfo.java:93)
+	at com.intellij.formatting.IndentInfo.generateNewWhiteSpace(IndentInfo.java:66)
+	at org.jetbrains.plugins.textmate.editor.TextMateLineIndentProvider.getLineIndent(TextMateLineIndentProvider.kt:53)
+	at com.intellij.application.options.CodeStyle.getLineIndent(CodeStyle.java:480)
+	at com.intellij.codeInsight.editorActions.SmartIndentingBackspaceHandler.doBeforeCharDeleted(SmartIndentingBackspaceHandler.java:43)
+	at com.intellij.codeInsight.editorActions.AbstractIndentingBackspaceHandler.beforeCharDeleted(AbstractIndentingBackspaceHandler.java:46)
+	at com.intellij.codeInsight.editorActions.SmartIndentingBackspaceHandler.beforeCharDeleted(SmartIndentingBackspaceHandler.java:20)
+	at com.intellij.codeInsight.editorActions.BackspaceHandler.handleBackspace(BackspaceHandler.java:81)
+	at com.intellij.codeInsight.editorActions.BackspaceHandler.executeWriteAction(BackspaceHandler.java:47)
+	at com.intellij.openapi.editor.actionSystem.EditorWriteActionHandler$1.run(EditorWriteActionHandler.java:42)
+	at com.intellij.openapi.application.impl.RwLockHolder.runWriteAction(RwLockHolder.kt:344)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWriteAction(ApplicationImpl.java:883)
+	at com.intellij.openapi.editor.actionSystem.EditorWriteActionHandler.doExecute(EditorWriteActionHandler.java:56)
+	at com.intellij.openapi.editor.actionSystem.EditorActionHandler.lambda$execute$2(EditorActionHandler.java:192)
+	at com.intellij.openapi.editor.actionSystem.EditorActionHandler.doIfEnabled(EditorActionHandler.java:89)
+	at com.intellij.openapi.editor.actionSystem.EditorActionHandler.lambda$execute$3(EditorActionHandler.java:191)
+	at com.intellij.openapi.editor.impl.CaretModelImpl.lambda$runForEachCaret$3(CaretModelImpl.java:303)
+	at com.intellij.openapi.editor.impl.CaretModelImpl.doWithCaretMerging(CaretModelImpl.java:412)
+	at com.intellij.openapi.editor.impl.CaretModelImpl.runForEachCaret(CaretModelImpl.java:312)
+	at com.intellij.openapi.editor.impl.CaretModelImpl.runForEachCaret(CaretModelImpl.java:289)
+	at com.intellij.openapi.editor.actionSystem.EditorActionHandler.execute(EditorActionHandler.java:189)
+	at com.intellij.openapi.editor.actions.DeleteSelectionHandler.executeWriteAction(DeleteSelectionHandler.java:33)
+	at com.intellij.openapi.editor.actionSystem.EditorWriteActionHandler$1.run(EditorWriteActionHandler.java:42)
+	at com.intellij.openapi.application.impl.RwLockHolder.runWriteAction(RwLockHolder.kt:344)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWriteAction(ApplicationImpl.java:883)
+	at com.intellij.openapi.editor.actionSystem.EditorWriteActionHandler.doExecute(EditorWriteActionHandler.java:56)
+	at com.intellij.openapi.editor.actionSystem.EditorActionHandler.lambda$execute$4(EditorActionHandler.java:199)
+	at com.intellij.openapi.editor.actionSystem.EditorActionHandler.doIfEnabled(EditorActionHandler.java:89)
+	at com.intellij.openapi.editor.actionSystem.EditorActionHandler.execute(EditorActionHandler.java:198)
+	at com.intellij.codeInsight.lookup.impl.BackspaceHandler.doExecute(BackspaceHandler.java:25)
+	at com.intellij.openapi.editor.actionSystem.EditorActionHandler.lambda$execute$4(EditorActionHandler.java:199)
+	at com.intellij.openapi.editor.actionSystem.EditorActionHandler.doIfEnabled(EditorActionHandler.java:89)
+	at com.intellij.openapi.editor.actionSystem.EditorActionHandler.execute(EditorActionHandler.java:198)
+	at org.jetbrains.plugins.notebooks.jupyter.editor.actions.JupyterSelectionLastLineFixer.executeWriteAction(JupyterSelectionLastLineFixer.kt:27)
+	at com.intellij.openapi.editor.actionSystem.EditorWriteActionHandler$1.run(EditorWriteActionHandler.java:42)
+	at com.intellij.openapi.application.impl.RwLockHolder.runWriteAction(RwLockHolder.kt:344)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWriteAction(ApplicationImpl.java:883)
+	at com.intellij.openapi.editor.actionSystem.EditorWriteActionHandler.doExecute(EditorWriteActionHandler.java:56)
+	at com.intellij.openapi.editor.actionSystem.EditorActionHandler.lambda$execute$4(EditorActionHandler.java:199)
+	at com.intellij.openapi.editor.actionSystem.EditorActionHandler.doIfEnabled(EditorActionHandler.java:89)
+	at com.intellij.openapi.editor.actionSystem.EditorActionHandler.execute(EditorActionHandler.java:198)
+	at com.intellij.execution.impl.ConsoleViewImpl$ConsoleActionHandler.doExecute(ConsoleViewImpl.java:1229)
+	at com.intellij.openapi.editor.actionSystem.DynamicEditorActionHandler.doExecute(DynamicEditorActionHandler.java:63)
+	at com.intellij.openapi.editor.actionSystem.EditorActionHandler.lambda$execute$4(EditorActionHandler.java:199)
+	at com.intellij.openapi.editor.actionSystem.EditorActionHandler.doIfEnabled(EditorActionHandler.java:89)
+	at com.intellij.openapi.editor.actionSystem.EditorActionHandler.execute(EditorActionHandler.java:198)
+	at com.intellij.openapi.editor.actionSystem.EditorAction.lambda$actionPerformed$0(EditorAction.java:92)
+	at com.intellij.openapi.command.impl.CoreCommandProcessor.executeCommand(CoreCommandProcessor.java:225)
+	at com.intellij.openapi.command.impl.CoreCommandProcessor.executeCommand(CoreCommandProcessor.java:177)
+	at com.intellij.openapi.editor.actionSystem.EditorAction.actionPerformed(EditorAction.java:101)
+	at com.intellij.openapi.editor.actionSystem.EditorAction.actionPerformed(EditorAction.java:77)
+	at com.intellij.openapi.actionSystem.ex.ActionUtil.doPerformActionOrShowPopup(ActionUtil.kt:304)
+	at com.intellij.openapi.keymap.impl.ActionProcessor.performAction(ActionProcessor.java:32)
+	at com.intellij.openapi.keymap.impl.IdeKeyEventDispatcher$actionProcessor$1.performAction(IdeKeyEventDispatcher.kt:495)
+	at com.intellij.openapi.keymap.impl.IdeKeyEventDispatcherKt.doPerformActionInner$lambda$4$lambda$3(IdeKeyEventDispatcher.kt:844)
+	at com.intellij.openapi.application.TransactionGuardImpl.performActivity(TransactionGuardImpl.java:106)
+	at com.intellij.openapi.application.TransactionGuardImpl.performUserActivity(TransactionGuardImpl.java:95)
+	at com.intellij.openapi.keymap.impl.IdeKeyEventDispatcherKt.doPerformActionInner$lambda$4(IdeKeyEventDispatcher.kt:844)
+	at com.intellij.openapi.actionSystem.impl.ActionManagerImpl.performWithActionCallbacks(ActionManagerImpl.kt:1161)
+	at com.intellij.openapi.actionSystem.ex.ActionUtil.performDumbAwareWithCallbacks(ActionUtil.kt:321)
+	at com.intellij.openapi.keymap.impl.IdeKeyEventDispatcherKt.doPerformActionInner(IdeKeyEventDispatcher.kt:842)
+	at com.intellij.openapi.keymap.impl.IdeKeyEventDispatcherKt.access$doPerformActionInner(IdeKeyEventDispatcher.kt:1)
+	at com.intellij.openapi.keymap.impl.IdeKeyEventDispatcher.processAction$intellij_platform_ide_impl(IdeKeyEventDispatcher.kt:571)
+	at com.intellij.openapi.keymap.impl.IdeKeyEventDispatcher.processAction(IdeKeyEventDispatcher.kt:508)
+	at com.intellij.openapi.keymap.impl.IdeKeyEventDispatcher.processActionOrWaitSecondStroke(IdeKeyEventDispatcher.kt:447)
+	at com.intellij.openapi.keymap.impl.IdeKeyEventDispatcher.inInitState(IdeKeyEventDispatcher.kt:440)
+	at com.intellij.openapi.keymap.impl.IdeKeyEventDispatcher.dispatchKeyEvent(IdeKeyEventDispatcher.kt:302)
+	at com.intellij.ide.IdeEventQueue.dispatchKeyEvent(IdeEventQueue.kt:623)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent$lambda$11(IdeEventQueue.kt:585)
+	at com.intellij.openapi.application.impl.RwLockHolder.runWithEnabledImplicitRead(RwLockHolder.kt:138)
+	at com.intellij.openapi.application.impl.RwLockHolder.runWithImplicitRead(RwLockHolder.kt:129)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.kt:585)
+	at com.intellij.ide.IdeEventQueue.access$_dispatchEvent(IdeEventQueue.kt:77)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1.compute(IdeEventQueue.kt:362)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1.compute(IdeEventQueue.kt:361)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:843)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1.invoke(IdeEventQueue.kt:361)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1.invoke(IdeEventQueue.kt:356)
+	at com.intellij.ide.IdeEventQueueKt.performActivity$lambda$1(IdeEventQueue.kt:1022)
+	at com.intellij.openapi.application.TransactionGuardImpl.performActivity(TransactionGuardImpl.java:114)
+	at com.intellij.ide.IdeEventQueueKt.performActivity(IdeEventQueue.kt:1022)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent$lambda$7(IdeEventQueue.kt:356)
+	at com.intellij.openapi.application.impl.RwLockHolder.runIntendedWriteActionOnCurrentThread(RwLockHolder.kt:209)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:830)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.kt:398)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:207)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:128)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:117)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:105)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:92)
+2024-05-17 16:38:03,948 [3668281] SEVERE - #c.i.i.p.PluginManager - PyCharm 2024.1.1  Build #PY-241.15989.155
+2024-05-17 16:38:03,948 [3668281] SEVERE - #c.i.i.p.PluginManager - JDK: 17.0.10; VM: OpenJDK 64-Bit Server VM; Vendor: JetBrains s.r.o.
+2024-05-17 16:38:03,948 [3668281] SEVERE - #c.i.i.p.PluginManager - OS: Linux
+2024-05-17 16:38:03,949 [3668282] SEVERE - #c.i.i.p.PluginManager - Last Action: EditorBackSpace
+2024-05-17 16:40:47,688 [3832021]   WARN - #c.j.p.s.f.PythonSdkFlavor - /home/gg/PycharmProjects/Immo-Data-Collection/.venv/bin/python is not executable: File /home/gg/PycharmProjects/Immo-Data-Collection/.venv/bin/python is not found
+2024-05-17 19:53:01,983 [15366316]   WARN - #c.i.u.x.Binding - No accessors for com.intellij.platform.feedback.impl.state.DontShowAgainFeedbackState. This means that state class cannot be serialized properly. Please see https://jb.gg/ij-psoc
+2024-05-17 19:53:01,988 [15366321]   WARN - #c.i.u.x.Binding - No accessors for com.intellij.platform.feedback.impl.state.CommonFeedbackSurveysState. This means that state class cannot be serialized properly. Please see https://jb.gg/ij-psoc

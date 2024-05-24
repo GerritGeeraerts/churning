@@ -19,17 +19,19 @@ from azure.identity import DefaultAzureCredential, ClientSecretCredential
 from azure.mgmt.storage import StorageManagementClient
 from azure.storage.filedatalake import DataLakeServiceClient
 
+MLFLOW_IP_ADDRESS = "52.234.229.69"
+
 
 def load_data():
     print('Loading data from Azure Data Lake Gen2...')
-    tenant_id = os.getenv("AZURE_TENANT_ID").strip()
-    client_id = os.getenv("AZURE_CLIENT_ID").strip()
-    client_secret = os.getenv("AZURE_CLIENT_SECRET").strip()
+    tenant_id = os.getenv("ARM_TENANT_ID").strip()
+    client_id = os.getenv("ARM_CLIENT_ID").strip()
+    client_secret = os.getenv("ARM_CLIENT_SECRET").strip()
 
     credential = ClientSecretCredential(tenant_id, client_id, client_secret)
 
     # Set up the storage account details
-    subscription_id = os.getenv("AZURE_SUBSCRIPTION_ID").strip()
+    subscription_id = os.getenv("ARM_SUBSCRIPTION_ID").strip()
     resource_group_name = "mlflow-rg"
     storage_account_name = "mlflowstoracc"
 
@@ -111,12 +113,12 @@ def custom_scorer():
 
 
 def grid_search(X_train, y_train, X_val, y_val):
-    param_grid = {
-        'iterations': [100, 200],
-        'depth': [3, 5, 7],
-        'learning_rate': [0.01, 0.1],
-        'l2_leaf_reg': [1, 3, 5]
-    }
+    # param_grid = {
+    #     'iterations': [200],
+    #     'depth': [5, 7],
+    #     'learning_rate': [0.1],
+    #     'l2_leaf_reg': [1, 3]
+    # }
 
     param_grid = {
         'iterations': [100],
@@ -134,8 +136,7 @@ def grid_search(X_train, y_train, X_val, y_val):
     # Iterate through the results and print the metrics for each combination
     all_results = grid_search.cv_results_
 
-    print('http://localhost:5000')
-    mlflow.set_tracking_uri('http://localhost:5000')
+    mlflow.set_tracking_uri(f'http://{MLFLOW_IP_ADDRESS}:5000')
     mlflow.set_experiment(experiment_name="catboost_churn_model")
 
     for i in range(len(all_results['params'])):
@@ -145,7 +146,6 @@ def grid_search(X_train, y_train, X_val, y_val):
             mlflow.log_metric("Mean recall", all_results['mean_test_recall'][i])
             mlflow.log_metric("Mean f1", all_results['mean_test_f1'][i])
             mlflow.log_metric("Mean ROC-AUC", all_results['mean_test_roc_auc'][i])
-
             print(f"Parameters: {all_results['params'][i]}")
             print(f"Mean precision: {all_results['mean_test_precision'][i]:.4f}")
             print(f"Mean recall: {all_results['mean_test_recall'][i]:.4f}")
@@ -154,6 +154,8 @@ def grid_search(X_train, y_train, X_val, y_val):
             print("=" * 60)
 
     # breakpoint()
+    with mlflow.start_run():
+        mlflow.catboost.log_model(grid_search.best_estimator_, "catboost_churn_model")
 
     return grid_search.best_estimator_
 
