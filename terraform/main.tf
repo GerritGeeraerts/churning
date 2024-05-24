@@ -42,8 +42,9 @@ resource "null_resource" "upload_file" {
       az storage fs file upload --account-name ${azurerm_storage_account.example.name} \
         --file-system ${azurerm_storage_data_lake_gen2_filesystem.example.name} \
         --path bank_churners.csv \
-        --source ../data/raw/bank_churners.csv
+        --source /home/gg/PycharmProjects/churning2/data/raw/bank_churners.csv
     EOT
+    # --source ../data/raw/bank_churners.csv
   }
 
   depends_on = [

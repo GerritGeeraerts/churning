@@ -11,9 +11,56 @@ from sklearn.preprocessing import PowerTransformer, MinMaxScaler, LabelEncoder
 
 warnings.filterwarnings('ignore')
 
+import io
+import os
 
-def load_data(filepath):
-    return pd.read_csv(filepath)
+import pandas as pd
+from azure.identity import DefaultAzureCredential, ClientSecretCredential
+from azure.mgmt.storage import StorageManagementClient
+from azure.storage.filedatalake import DataLakeServiceClient
+
+
+def load_data():
+    print('Loading data from Azure Data Lake Gen2...')
+    tenant_id = os.getenv("AZURE_TENANT_ID").strip()
+    client_id = os.getenv("AZURE_CLIENT_ID").strip()
+    client_secret = os.getenv("AZURE_CLIENT_SECRET").strip()
+
+    credential = ClientSecretCredential(tenant_id, client_id, client_secret)
+
+    # Set up the storage account details
+    subscription_id = os.getenv("AZURE_SUBSCRIPTION_ID").strip()
+    resource_group_name = "mlflow-rg"
+    storage_account_name = "mlflowstoracc"
+
+    # Create a StorageManagementClient
+    storage_client = StorageManagementClient(credential, subscription_id)
+
+    # Retrieve the storage account key
+    storage_keys = storage_client.storage_accounts.list_keys(resource_group_name, storage_account_name)
+    storage_account_key = storage_keys.keys[0].value
+
+    # Create a DataLakeServiceClient object
+    service_client = DataLakeServiceClient(account_url=f"https://{storage_account_name}.dfs.core.windows.net",
+                                           credential=storage_account_key)
+
+    # Specify the file system and file path
+    file_system_name = "data-lake-gen2-filesystem"
+    file_path = "bank_churners.csv"
+
+    # Get a reference to the file system client
+    file_system_client = service_client.get_file_system_client(file_system_name)
+
+    # Get a reference to the file client
+    file_client = file_system_client.get_file_client(file_path)
+
+    download = file_client.download_file()
+    csv_data = download.readall().decode('utf-8')
+
+    # Create a DataFrame from the CSV data
+    df = pd.read_csv(io.StringIO(csv_data))
+
+    return df
 
 
 def preprocess_data(data):
@@ -65,10 +112,17 @@ def custom_scorer():
 
 def grid_search(X_train, y_train, X_val, y_val):
     param_grid = {
-        'iterations': [100 , 200],
+        'iterations': [100, 200],
         'depth': [3, 5, 7],
         'learning_rate': [0.01, 0.1],
         'l2_leaf_reg': [1, 3, 5]
+    }
+
+    param_grid = {
+        'iterations': [100],
+        'depth': [3],
+        'learning_rate': [0.01],
+        'l2_leaf_reg': [1]
     }
 
     catboost_model = CatBoostClassifier(verbose=0, random_seed=42)
@@ -124,7 +178,7 @@ def evaluate_model(model, X, y, dataset_type="dataset"):
 def main():
     # Load data
     filepath = '/home/gg/PycharmProjects/churning2/data/raw/bank_churners.csv'
-    data = load_data(filepath)
+    data = load_data()
 
     # Preprocess data
     X, y = preprocess_data(data)
