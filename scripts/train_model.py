@@ -19,19 +19,19 @@ from azure.identity import DefaultAzureCredential, ClientSecretCredential
 from azure.mgmt.storage import StorageManagementClient
 from azure.storage.filedatalake import DataLakeServiceClient
 
-MLFLOW_IP_ADDRESS = "52.234.229.69"
+MLFLOW_IP_ADDRESS = "4.236.142.8"
 
 
 def load_data():
     print('Loading data from Azure Data Lake Gen2...')
-    tenant_id = os.getenv("ARM_TENANT_ID").strip()
-    client_id = os.getenv("ARM_CLIENT_ID").strip()
-    client_secret = os.getenv("ARM_CLIENT_SECRET").strip()
+    tenant_id = os.getenv("ARM_TENANT_ID")
+    client_id = os.getenv("ARM_CLIENT_ID")
+    client_secret = os.getenv("ARM_CLIENT_SECRET")
 
     credential = ClientSecretCredential(tenant_id, client_id, client_secret)
 
     # Set up the storage account details
-    subscription_id = os.getenv("ARM_SUBSCRIPTION_ID").strip()
+    subscription_id = os.getenv("ARM_SUBSCRIPTION_ID")
     resource_group_name = "mlflow-rg"
     storage_account_name = "mlflowstoracc"
 

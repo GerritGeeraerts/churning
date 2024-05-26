@@ -1,0 +1,25 @@
+# Exclude virtual environment
+.venv/
+
+# Exclude irrelevant project files
+data/
+terraform/
+assets/
+
+# Exclude all catboost_info directories
+**/catboost_info/
+
+# Exclude other files and directories as necessary
+*.pyc
+__pycache__/
+
+# Exclude git
+.git/
+.gitignore
+
+# Exclude pycharm idea
+.idea/
+
+# Exclude all output files
+*.out
+
