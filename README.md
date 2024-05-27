@@ -1,5 +1,3 @@
-Sure, I can help you create a project description similar to your previous project about integrating Terraform, MLflow, and Azure Cloud. Here it is:
-
 # Azure ML Infrastructure with Terraform and MLflow
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![Terraform](https://img.shields.io/badge/terraform-623CE4?style=for-the-badge&logo=terraform&logoColor=white)
