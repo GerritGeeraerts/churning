@@ -5,6 +5,8 @@
 ![MLflow](https://img.shields.io/badge/MLflow-0077B5?style=for-the-badge&logo=mlflow&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
+![Churning Data](./assets/churning-data.png)
+
 ## 📖 Introduction
 
 Welcome to my GitHub repository, where we set up a machine learning infrastructure on Azure using Terraform and MLflow. This project focuses on creating a scalable and efficient environment for data storage, model training, and model deployment. We use Terraform to provision resources in Azure Cloud, such as Azure Data Lake for storing raw data and an Azure Virtual Machine for hosting the MLflow Server. Our training scripts initially run locally but it also includes a script to train it in the azure cloud.
